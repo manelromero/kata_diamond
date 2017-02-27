@@ -4,8 +4,8 @@ rvm:
   - 2.4.0
 
 install:
+  - gem install bundler
   - bundle install --path vendor/bundle
-  - npm install
 
 script:
   - bundle exec rspec
